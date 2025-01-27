@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Travel</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Book Travel</h1>
+
+      <!-- Navigation Bar -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destination.html">Destinations</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <!-- Introduction Section -->
+      <section>
+        <h2>About Our Website</h2>
+        <p>
+          Book Travel helps you find and book the best travel experiences
+          worldwide with the cheapest prices.
+        </p>
+      </section>
+
+      <!-- Top Destinations Section -->
+      <section>
+        <h2>Top Destinations</h2>
+        <ul>
+          <li>
+            <h3>Delhi</h3>
+            <img src="./Images/Delhi.jpg" alt="Delhi" height="500px" />
+            <p>Yeh shehar nhi mehfil hain</p>
+          </li>
+          <li>
+            <h3>Mumbai</h3>
+            <img src="/Images/Mumbai.jpg" alt="Mumbai" height="500px" />
+            <p>A city full of dreamers and hard workers.</p>
+          </li>
+          <li>
+            <h3>Bangalore</h3>
+            <img src="./Images/Bangalore.jpg" alt="Bangalore" height="500px" />
+            <p>Silicon Valley of India.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Travel Package Section -->
+      <section>
+        <h2>Travel Packages</h2>
+        <table>
+          <tr>
+            <th>Package Name</th>
+            <th>Destination</th>
+            <th>Price</th>
+            <th>Duration</th>
+          </tr>
+          <tr>
+            <td>Dilwaalon Ki Delhi</td>
+            <td>Delhi</td>
+            <td>₹ 25,000</td>
+            <td>5 Days</td>
+          </tr>
+          <tr>
+            <td>City Explorer</td>
+            <td>Mumbai</td>
+            <td>₹ 55,000</td>
+            <td>7 Days</td>
+          </tr>
+          <tr>
+            <td>Tech Adventure</td>
+            <td>Bangalore</td>
+            <td>₹80,000</td>
+            <td>10 Days</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Travel Booking Form -->
+      <section>
+        <h2>Book Your Travel</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="destination">Select Destination:</label>
+          <select id="destination" name="destination">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+          </select>
+
+          <label>Travel Class:</label>
+          <label
+            ><input type="radio" name="class" value="economy" required />
+            Economy</label
+          >
+          <label
+            ><input type="radio" name="class" value="business" />
+            Business</label
+          >
+          <label
+            ><input type="radio" name="class" value="first" /> First
+            Class</label
+          >
+
+          <label>Add-ons:</label>
+          <label
+            ><input type="checkbox" name="addons" value="insurance" />
+            Insurance</label
+          >
+          <label
+            ><input type="checkbox" name="addons" value="meal" /> Meals</label
+          >
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <h2>Book Travel</h2>
+      <p>Copyright &copy; 2025.</p>
+      <p>
+        Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+        <a href="#">Twitter</a>
+      </p>
+    </footer>
+  </body>
+</html>
